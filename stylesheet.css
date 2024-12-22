@@ -4,6 +4,22 @@
     --subtitle-font-size: 20px;
     --text-font-size: 17px;
   }
+  .blue-button {
+    display: inline-block;
+    padding: 2px 6px;
+    background-color: #007BFF;  /* 蓝色背景 */
+    color: white;                /* 白色文字 */
+    text-decoration: none;       /* 移除下划线 */
+    border-radius: 5px;          /* 圆角 */
+    font-size: 14px;             /* 文字大小 */
+    font-weight: bold;           /* 加粗文字 */
+    text-align: center;
+    transition: background-color 0.3s ease;  /* 背景颜色过渡效果 */
+  }
+
+  .blue-button:hover {
+      background-color: #0056b3;  /* 鼠标悬停时的深蓝色 */
+  }
   
   
   /* latin-ext */
