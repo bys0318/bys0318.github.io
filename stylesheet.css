@@ -105,7 +105,7 @@
   p,
   a {
     font-family: 'Lato', Verdana, Helvetica, sans-serif;
-    font-size: var(--text-font-size)
+    font-size: var(--text-font-size);
   }
   
   strong {
@@ -116,8 +116,10 @@
   heading {
     font-family: 'Lato', Verdana, Helvetica, sans-serif;
     font-size: var(--title-font-size);
+    font-weight: 700;
+    color: #003e7c;
   }
-  
+
   papertitle {
     font-family: 'Lato', Verdana, Helvetica, sans-serif;
     font-size: var(--subtitle-font-size);
@@ -162,13 +164,6 @@
     width: 150px;
     border-radius: 100%;
     box-shadow: 0 0 0 0.3em #ddd;
-  }
-
-  heading {
-    font-family: 'Lato', Verdana, Helvetica, sans-serif;
-    font-size: var(--title-font-size);
-    font-weight: 700;
-    color: #003e7c;
   }
 
   /* News section styles */
